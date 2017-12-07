@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.meiketangxiangmuapp.MainActivity">
+    <Button
+        android:id="@+id/mBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="重置"
+        android:textColor="#FF709A"
+        android:background="#ffffff"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/mImg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/meiyeren" />
+
+
+    <ImageView
+        android:id="@+id/aihao1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/aihao1" />
+
+    <ImageView
+        android:id="@+id/aihao2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/aihao2" />
+
+    <ImageView
+        android:id="@+id/aihao3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/aihao3" />
+
+    <ImageView
+        android:id="@+id/aihao4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/aihao4" />
+
+    <ImageView
+        android:id="@+id/meiye1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/meiye1" />
+
+    <ImageView
+        android:id="@+id/meiye2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/meiye2" />
+
+    <ImageView
+        android:id="@+id/meiye3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/meiye3" />
+    <ImageView
+        android:id="@+id/cxz1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/obcmeifa" />
+
+    <ImageView
+        android:id="@+id/cxz2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/obcmeirong" />
+
+    <ImageView
+        android:id="@+id/cxz3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/obcmeixue" />
+
+    <ImageView
+        android:id="@+id/cxz4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/obcmeijian" />
+
+    <ImageView
+        android:id="@+id/cxz5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/obchuazhuang" />
+    <ImageView
+        android:id="@+id/mImg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/aihaozhe" />
+
+    <ImageView
+        android:src="@mipmap/kaiqi"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/kaiqi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
